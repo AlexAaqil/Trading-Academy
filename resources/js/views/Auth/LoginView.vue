@@ -16,7 +16,7 @@
                     </div>
 
                     <div class="input_group">
-                        <a href="">Forgot your password?</a>
+                        <router-link :to="{name: 'forgot-password'}">Forgot your password?</router-link>
                     </div>
 
                     <button type="submit">Login</button>
