@@ -1,0 +1,46 @@
+.Homepage {
+    .Hero {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container {
+            .image {
+                height: 150px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .text {
+                color: #fff;
+                text-align: center;
+
+                h1 {
+                    font-size: 1.8em;
+                }
+
+                p {
+                    margin: 0.5em 0;
+                    line-height: 1.5;
+                }
+
+                .hero_btn {
+                    margin: 2em 0 0;
+                    a {
+                        background: #fff;
+                        text-decoration: none;
+                        color: #000;
+                        padding: 8px 32px;
+                        border-radius: 32px;
+                        font-size: 1.1em;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

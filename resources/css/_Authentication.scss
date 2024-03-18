@@ -1,0 +1,60 @@
+.Authentication {
+    height: 90dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        .header {
+            text-align: center;
+            color: #fff;
+            margin: 0 0 0.5em;
+        }
+
+        .custom_form {
+            .input_group {
+                label {
+                    margin: 0 8px;
+                }
+                input {
+                    border-radius: 32px;
+                    padding: 8px 15px;
+                }
+            }
+
+            button {
+                width: 100%;
+                border-radius: 32px;
+                background: #fff;
+                color: #000;
+                text-transform: uppercase;
+            }
+        }
+
+        .input_group a,
+        p a {
+            text-decoration: none;
+            color: lightblue;
+        }
+
+        p {
+            margin: 0.5em 0;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    .login {
+        width: 80vw;
+        margin: auto;
+    }
+}
+
+@media screen and (width >= 726px) {
+    .Authentication {
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
