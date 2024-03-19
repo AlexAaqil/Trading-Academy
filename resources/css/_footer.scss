@@ -1,0 +1,39 @@
+footer {
+    .container {
+        div {
+            margin: 0 0 1em;
+            &:not(:first-of-type) {
+                h1 {
+                    font-size: 1.1em;
+                    margin: 0 0 0.5em;
+                }
+
+                .links {
+                    display: grid;
+                    gap: 0.3em;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        border-top: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (width >= 726px) {
+    footer {
+        .container {
+            display: grid;
+            grid-template-columns: 30% 1fr 1fr;
+            justify-items: center;
+        }
+    }
+}

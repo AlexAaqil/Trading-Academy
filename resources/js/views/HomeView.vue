@@ -13,8 +13,8 @@
                     </h1>
                     <p>
                         We are a top trading academy that focuses on trading in
-                        different markets. <br> From stocks, Forex, Commodities and
-                        CFD's
+                        different markets. <br />
+                        From stocks, Forex, Commodities and CFD's
                     </p>
                     <div class="hero_btn">
                         <router-link :to="{ name: 'login' }">Start</router-link>
@@ -22,5 +22,11 @@
                 </div>
             </div>
         </section>
+
+        <Footer />
     </main>
 </template>
+
+<script setup>
+import Footer from "@/components/Footer.vue";
+</script>
