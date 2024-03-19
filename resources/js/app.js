@@ -1,10 +1,7 @@
 import './bootstrap';
 
-import '../assets/icons/icons.css';
-import '../css/styles.scss';
+import Alpine from 'alpinejs';
 
-import { createApp } from 'vue';
-import app from './app.vue';
-import router from './router'
+window.Alpine = Alpine;
 
-createApp(app).use(router).mount('#app')
+Alpine.start();

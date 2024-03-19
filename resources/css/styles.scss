@@ -1,8 +1,9 @@
 @import "_global";
+@import "_mixins";
 @import "_forms";
 
 // Partials
-@import "footer";
+@import "navbar";
 
 // Pages
 @import "Homepage";
